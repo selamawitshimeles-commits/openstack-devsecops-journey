@@ -7,7 +7,7 @@ Verify OpenStack services and resources before launching the first VM.
 
 ##  OpenStack Services and  Flavors
 
-![Service List](screenshots/serviceandflavorlist)
+![Service List](screenshots/serviceandflavorlist.png)
 
 ---
 
