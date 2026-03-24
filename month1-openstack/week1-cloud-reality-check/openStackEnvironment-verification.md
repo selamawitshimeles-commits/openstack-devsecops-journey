@@ -5,27 +5,15 @@ Verify OpenStack services and resources before launching the first VM.
 
 ---
 
-##  OpenStack Services
+##  OpenStack Services and  Flavors
 
-![Service List](screenshots/service-list.png)
-
----
-
-##  Networks
-
-![Network List](screenshots/network-list.png)
+![Service List](screenshots/serviceandflavorlist.png)
 
 ---
 
-##  Images
+##  Networks and Images
 
-![Image List](screenshots/image-list.png)
-
----
-
-##  Flavors
-
-![Flavor List](screenshots/flavor-list.png)
+![Network List](screenshots/networkandimagelist.png)
 
 ---
 
