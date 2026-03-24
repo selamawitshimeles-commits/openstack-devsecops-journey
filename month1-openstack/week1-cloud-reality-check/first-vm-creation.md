@@ -18,9 +18,36 @@ Successfully created first virtual machine using OpenStack CLI. This validates t
 | **Key Pair** | my-first-key | SSH authentication |
 
 ---
+## Commands Used
+
+```bash
+# Source credentials
+source ~/openrc
+
+# List available resources
+openstack image list      # Images available
+openstack flavor list     # Hardware templates
+openstack network list    # Networks available
 
 ##  Launch VM
+openstack server create \
+  --image cirros-0.6.3-x86_64-disk \
+  --flavor m1.tiny \
+  --network private \
+  --key-name my-first-key \
+  first-vm-cli
+
 ## Verify VM Status
+	openstack server list
+
+##OpenStack Services Used
+| Service | Purpose |
+|---------|---------|
+| Glance | Provides OS images |
+| Nova | Creates and manages VMs |
+| Neutron | Handles networking |
+| Keystone | Manages authentication |
+
 ## Results : VM Successfully Created
 
 ![First Virtual Machine Created](screenshots/firstVM.png)
